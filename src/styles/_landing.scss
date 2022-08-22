@@ -1,0 +1,5 @@
+.landing {
+    @include flexCC;
+    flex-direction: column;
+    min-height: $pageHeight;
+}

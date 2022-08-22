@@ -1,0 +1,9 @@
+.orderCard{
+    border: 2px solid $detailColor;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+}

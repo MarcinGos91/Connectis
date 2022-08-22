@@ -1,0 +1,10 @@
+*{
+    color: $fontColor;
+}
+ .button{ 
+    background-color: $black;
+    border: 1px solid $detailColor;
+    border-radius: 5px;
+    color: $fontColor;
+    padding: 5px;
+ }

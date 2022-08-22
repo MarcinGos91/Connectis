@@ -1,0 +1,27 @@
+.myPoints{
+    @include flexCC;
+    justify-content: space-evenly;
+    min-height: $pageHeight;
+    &--points{
+        @include flexCC;
+        flex-direction: column;
+        gap: 5px;
+        height: $pageHeight;
+        text-align: center;
+    }
+    &--orders{
+        @include flexCC;
+        flex-direction: column;
+        gap: 5px;
+        height: $pageHeight;
+        text-align: center;
+    }
+    &--spinner{
+        @include flexCC;
+        flex-direction: column;
+        height: $pageHeight;
+    }
+    &--spinnerText{
+        font-size: 20px;
+    }
+}

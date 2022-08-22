@@ -1,0 +1,8 @@
+export { default as Main } from './Main.page'
+export { default as Landing } from './Landing.page'
+export { default as Login } from './Login.page'
+export { default as Register } from './Register.page'
+export { default as RegisterSuccessful } from './RegisterSuccessful.page'
+export { default as NewOrder } from './NewOrder.page'
+export { default as MyPoints } from './MyPoints.page'
+export { default as Error } from './Error.page'

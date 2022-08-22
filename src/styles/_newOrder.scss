@@ -1,0 +1,21 @@
+.newOrder{
+    @include flexCC;
+    flex-direction: column;
+    min-height: $pageHeight;
+    &--form{
+        @include flexCC;
+        border: 1px solid $white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 1% 2%;
+    }
+    &--message{
+        height: $thumb * 0.5;
+    }
+    &--input{
+        color: $black;
+        padding-left: 5px;
+    }
+}

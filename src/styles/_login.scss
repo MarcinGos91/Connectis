@@ -1,0 +1,22 @@
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: $pageHeight;
+    justify-content: center;
+    &--error{
+        font-size: 11px;
+        height: 17px;
+        line-height: 13px;
+        padding-top: 2px;
+        text-align: right;
+    }
+    &--rememberMe{
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+        padding-top: 2px;
+        width: 100%;
+    }
+}

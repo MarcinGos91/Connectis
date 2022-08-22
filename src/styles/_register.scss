@@ -1,0 +1,19 @@
+.register{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: $pageHeight;
+    justify-content: center;
+    &--error{
+        font-size: 11px;
+        height: 17px;
+        line-height: 13px;
+        padding-top: 2px;
+        text-align: right;
+    }
+    &--button{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
